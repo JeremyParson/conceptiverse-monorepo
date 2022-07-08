@@ -4,6 +4,7 @@ declare namespace Express {
     }
 
     type User = {
-        role: String
+        role: String,
+        _id: import('mongoose').Types.ObjectId,
     }
 }
